@@ -38,7 +38,6 @@ html, body {
 
 
 header {
-    /* height: 80px; */
     width: 100%;
     background-color: #1B1F24;
     position: fixed;
@@ -248,7 +247,7 @@ main {
  #arrowright1 {
    position: absolute;
    font-size: 18px;
-   left: 25%;
+   left: 1%;
    transition: 0.5s ease;
  }
  .aboutleft h4:hover  #arrowright1 {
@@ -256,6 +255,9 @@ main {
  }
  .aboutleft h4:hover {
    text-decoration-color: white;
+ }
+ .aboutright a {
+  text-decoration-color: transparent;
  }
   #About .aboutright {
   width: 50%;
